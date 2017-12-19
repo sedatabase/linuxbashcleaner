@@ -28,15 +28,13 @@ clear
 echo "Bash script güncelleniyor, lütfen bekleyiniz..."
 sleep 3
 cd /root
-rm -rf temizlikci.sh
-rm -rf temizlikci-cron.sh
-rm -rf temizlikci.log
-git rm -rf git@github.com:sdtyldz/linuxbashcleaner.git 
-git clone git@github.com:sdtyldz/linuxbashcleaner.git
+rm -rf linuxbashcleaner
+git clone https://github.com/sdtyldz/linuxbashcleaner.git
+cd /linuxbashcleaner
 touch temizlikci.log
-chmod +x /root/temizlikci.sh
-chmod +x /root/temizlikci-cron.sh
-chmod +x /root/temizlikci.log
+chmod +x /root/linuxbashcleaner/temizlikci.sh
+chmod +x /root/linuxbashcleaner/temizlikci-cron.sh
+chmod +x /root/linuxbashcleaner/temizlikci.log
 sh temizlikci.sh
 ;;
 1)
@@ -113,14 +111,14 @@ echo "Tüm gereksiz dosyalar temizlenmiştir."
 clear
 echo "Cron bash script başlatılıyor, lütfen bekleyiniz..."
 sleep 3
-(crontab -l ; echo "0 0 * * * sh /root/temizlikci-cron.sh > /root/temizlikci.log 2>&1" ) | crontab -
+(crontab -l ; echo "0 0 * * * sh /root/linuxbashcleaner/temizlikci-cron.sh > /root/linuxbashcleaner/temizlikci.log 2>&1" ) | crontab -
 echo "Crontab ayarlanmıştır, lütfen bu işlemi tekrarlamayın."
 ;;
 12)
 clear
 echo "Loglar alınıyor, lütfen bekleyiniz..."
 sleep 3
-tail /root/temizlikci.log
+tail /root/linuxbashcleaner/temizlikci.log
 ;;
 20)
 clear
