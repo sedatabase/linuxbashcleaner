@@ -10,9 +10,9 @@ Bir çok müşteri ve müşteri adayları ne yazık ki hosting hesaplarında sad
 Aşağıdaki komutları CentOS SSH ekranına girmeniz yeterlidir.
 
 ```
-cd /root <br>
-wget https://github.com/sdtyldz/linuxbashcleaner/temizlikci.sh <br>
-sh temizlikci.sh <br>
+cd /root
+wget https://github.com/sdtyldz/linuxbashcleaner/temizlikci.sh
+sh temizlikci.sh
 ```
 
 <b>Neleri Siler;</b><br>
