@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 clear
 echo -e "\033[31m###################### Web Server Temizleyici #####################"
 echo "######################### Pear Technology #########################"
@@ -31,8 +31,8 @@ cd /root
 rm -rf temizlikci.sh
 rm -rf temizlikci-cron.sh
 rm -rf temizlikci.log
-wget https://github.com/sdtyldz/linuxbashcleaner/temizlikci.sh
-wget https://github.com/sdtyldz/linuxbashcleaner/temizlikci-cron.sh
+git rm -rf git@github.com:sdtyldz/linuxbashcleaner.git 
+git clone git@github.com:sdtyldz/linuxbashcleaner.git
 touch temizlikci.log
 chmod +x /root/temizlikci.sh
 chmod +x /root/temizlikci-cron.sh
