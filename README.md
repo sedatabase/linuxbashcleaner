@@ -18,5 +18,5 @@ cPanel arayüzünden alınan .tar.gz formatlı yedekleri, serverın tuttuğu .gz
 
 -Kullanımda tarafımdan herhangi bir sorumluluk kabul edilmemektedir, ana sunucumuzda kullanıp bir soruna rastlamasak da temkinli olmakta fayda var.
 
-Saygılarımla,
+Saygılarımla,<br>
 Sedat YILDIZ
