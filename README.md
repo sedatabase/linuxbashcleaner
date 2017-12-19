@@ -11,7 +11,7 @@ Aşağıdaki komutları CentOS SSH ekranına girmeniz yeterlidir.
 
 ```
 cd /root
-git clone https://github.com/sdtyldz/linuxbashcleaner.git
+wget https://raw.github.com/sdtyldz/linuxbashcleaner/master/temizlikci.sh
 sh temizlikci.sh
 ```
 
