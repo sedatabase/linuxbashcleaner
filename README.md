@@ -15,3 +15,8 @@ sh temizlikci.sh <br>
 
 <b>Neleri Siler;</b><br>
 cPanel arayüzünden alınan .tar.gz formatlı yedekleri, serverın tuttuğu .gz formatlı logları ve .tar.gz, .gz, .zip, .rar, .mp3, .mp4, .flv, .avi, .wmv, .dat, .exe, .bat, .psd, .cdr uzantılı tüm dosyaları temizler.
+
+-Kullanımda tarafımdan herhangi bir sorumluluk kabul edilmemektedir, ana sunucumuzda kullanıp bir soruna rastlamasak da temkinli olmakta fayda var.
+
+Saygılarımla,
+Sedat YILDIZ
