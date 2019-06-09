@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 clear
 echo -e "\033[31m###################### Web Server Temizleyici #####################"
-echo "########################### SEDAT YILDIZ #########################"
+echo "############################# SEDAT YILDIZ #########################"
 echo -e "\033[35m#-----------------------------------------------------------------#"
 echo "# (0) Bash Scripti Güncelle                                       #"
 echo "# (1) Yedek Dosyalarını Temizle                                   #"
