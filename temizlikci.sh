@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 clear
 echo -e "\033[31m###################### Web Server Temizleyici #####################"
-echo "######################### Pear Technology #########################"
+echo "######################### SEDAT YILDIZ #########################"
 echo -e "\033[35m#-----------------------------------------------------------------#"
 echo "# (0) Bash Scripti Güncelle                                       #"
 echo "# (1) Yedek Dosyalarını Temizle                                   #"
@@ -31,8 +31,8 @@ cd /root
 rm -rf temizlikci.sh
 rm -rf temizlikci-cron.sh
 rm -rf temizlikci.log
-wget https://raw.github.com/sdtyldz/linuxbashcleaner/master/temizlikci.sh
-wget https://raw.github.com/sdtyldz/linuxbashcleaner/master/temizlikci-cron.sh
+wget https://raw.github.com/sedatyildiznet/linuxbashcleaner/master/temizlikci.sh
+wget https://raw.github.com/sedatyildiznet/linuxbashcleaner/master/temizlikci-cron.sh
 touch temizlikci.log
 chmod +x /root/temizlikci.sh
 chmod +x /root/temizlikci-cron.sh
