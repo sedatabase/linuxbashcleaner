@@ -31,8 +31,8 @@ cd /root
 rm -rf temizlikci.sh
 rm -rf temizlikci-cron.sh
 rm -rf temizlikci.log
-wget https://raw.github.com/sedatyildiznet/linuxbashcleaner/master/temizlikci.sh
-wget https://raw.github.com/sedatyildiznet/linuxbashcleaner/master/temizlikci-cron.sh
+wget https://raw.github.com/sedatabase/linuxbashcleaner/master/temizlikci.sh
+wget https://raw.github.com/sedatabase/linuxbashcleaner/master/temizlikci-cron.sh
 touch temizlikci.log
 chmod +x /root/temizlikci.sh
 chmod +x /root/temizlikci-cron.sh
