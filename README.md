@@ -25,5 +25,7 @@ Sedat YILDIZ
 
 <hr>
 
-08.01.2024 Güncelleme:
-cPanel haricinde /home dizininde çalışan tüm kontrol panelleri için uyumlu hale getirilmiştir.
+Ocak 2024 Güncelleme: cPanel haricinde tüm kontrol panelleri için uyumlu hale getirildi.
+Aralık 2021 Güncelleme: Cron ile günlük otomatik temizleyici eklendi.
+Haziran 2019 Güncelleme: Seçilebilir çoklu temizleme özelliği eklendi.
+Aralık 2017 Güncelleme: Script wget ile çekilecek şekilde düzenlendi.
