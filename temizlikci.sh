@@ -19,7 +19,7 @@ echo "# (21) CPU Bilgilerini Görüntüle                                  #"
 echo "# (22) Ram Bilgilerini Görüntüle                                  #"
 echo "# (23) Hosting Hesaplarının Anlık Kaynak Tüketimini Görüntüle     #"
 echo "###################################################################"
-echo -e "\033[32m####################### Güncelleme: 08.01.2024 ####################"
+echo -e "\033[31m####################### Güncelleme: 08.01.2024 ####################"
 echo -e "\033[32m"
 echo Seçiminizi Giriniz :
 read secenek
