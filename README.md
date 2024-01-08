@@ -16,7 +16,7 @@ sh temizlikci.sh
 ```
 
 <b>Neleri Siler;</b><br>
-cPanel arayüzünden alınan .tar.gz formatlı yedekleri, serverın tuttuğu .gz formatlı logları ve .tar.gz, .gz, .zip, .rar, .mp3, .mp4, .flv, .avi, .wmv, .dat, .exe, .bat, .psd, .cdr uzantılı tüm dosyaları temizler.
+cPanel arayüzünden alınan .tar.gz formatlı yedekleri, serverın tuttuğu .gz formatlı logları ve .tar.gz, .gz, .zip, .rar, .mp3, .mp4, .flv, .avi, .wmv, .dat, .exe, .bat, .psd, .cdr, .wpress uzantılı tüm dosyaları temizler.
 
 - Kullanımda tarafımdan herhangi bir sorumluluk kabul edilmemektedir, ana sunucumuzda kullanıp bir soruna rastlamasak da temkinli olmakta fayda var.
 
@@ -26,7 +26,7 @@ Sedat YILDIZ
 <hr>
 
 <b>Güncellemeler:</b><br><br>
-Ocak 2024: cPanel haricinde tüm kontrol panelleri için uyumlu hale getirildi.<br>
-Aralık 2021: Cron ile günlük otomatik temizleyici eklendi.<br>
-Haziran 2019: Seçilebilir çoklu temizleme özelliği eklendi.<br>
-Aralık 2017: Script wget ile çekilecek şekilde düzenlendi.<br>
+<b>Ocak 2024:</b> cPanel haricinde tüm kontrol panelleri için uyumlu hale getirildi.<br>
+<b>Aralık 2021:</b> Cron ile günlük otomatik temizleyici eklendi.<br>
+<b>Haziran 2019:</b> Seçilebilir çoklu temizleme özelliği eklendi.<br>
+<b>Aralık 2017:</b> Script wget ile çekilecek şekilde düzenlendi.<br>
