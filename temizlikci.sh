@@ -57,33 +57,33 @@ echo "Log dosyaları temizlenmiştir."
 clear
 echo "Sıkıştırılmış dosyalar temizleniyor, lütfen bekleyiniz..."
 sleep 3
-find /home/*/public_html -name *.tar.gz -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.gz -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.zip -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.rar -type f -ls -exec rm -f {} \;
+find /home/* -name *.tar.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.zip -type f -ls -exec rm -f {} \;
+find /home/* -name *.rar -type f -ls -exec rm -f {} \;
 echo "Sıkıştırılmış dosyalar temizlenmiştir."
 ;;
 4)
 clear
 echo "Ses ve video dosyaları temizleniyor, lütfen bekleyiniz..."
 sleep 3
-find /home/*/public_html -name *.mp3 -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.mp4 -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.flv -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.avi -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.wmv -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.dat -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.swf -type f -ls -exec rm -f {} \;
+find /home/* -name *.mp3 -type f -ls -exec rm -f {} \;
+find /home/* -name *.mp4 -type f -ls -exec rm -f {} \;
+find /home/* -name *.flv -type f -ls -exec rm -f {} \;
+find /home/* -name *.avi -type f -ls -exec rm -f {} \;
+find /home/* -name *.wmv -type f -ls -exec rm -f {} \;
+find /home/* -name *.dat -type f -ls -exec rm -f {} \;
+find /home/* -name *.swf -type f -ls -exec rm -f {} \;
 echo "Ses ve video dosyaları temizlenmiştir."
 ;;
 5)
 clear
 echo "Program dosyaları temizleniyor, lütfen bekleyiniz..."
 sleep 3
-find /home/*/public_html -name *.exe -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.bat -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.psd -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.cdr -type f -ls -exec rm -f {} \;
+find /home/* -name *.exe -type f -ls -exec rm -f {} \;
+find /home/* -name *.bat -type f -ls -exec rm -f {} \;
+find /home/* -name *.psd -type f -ls -exec rm -f {} \;
+find /home/* -name *.cdr -type f -ls -exec rm -f {} \;
 echo "Program dosyaları temizlenmiştir."
 ;;
 10)
@@ -92,21 +92,21 @@ echo "Tüm gereksiz dosyalar temizleniyor, bu işlem uzun sürebilir lütfen bek
 sleep 3
 find /home/* -name backup-*.tar.gz -type f -ls -exec rm -f {} \;
 find /home/*/logs -name *.gz -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.tar.gz -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.gz -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.zip -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.rar -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.mp3 -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.mp4 -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.flv -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.avi -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.wmv -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.dat -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.exe -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.bat -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.psd -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.cdr -type f -ls -exec rm -f {} \;
-find /home/*/public_html -name *.swf -type f -ls -exec rm -f {} \;
+find /home/* -name *.tar.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.zip -type f -ls -exec rm -f {} \;
+find /home/* -name *.rar -type f -ls -exec rm -f {} \;
+find /home/* -name *.mp3 -type f -ls -exec rm -f {} \;
+find /home/* -name *.mp4 -type f -ls -exec rm -f {} \;
+find /home/* -name *.flv -type f -ls -exec rm -f {} \;
+find /home/* -name *.avi -type f -ls -exec rm -f {} \;
+find /home/* -name *.wmv -type f -ls -exec rm -f {} \;
+find /home/* -name *.dat -type f -ls -exec rm -f {} \;
+find /home/* -name *.exe -type f -ls -exec rm -f {} \;
+find /home/* -name *.bat -type f -ls -exec rm -f {} \;
+find /home/* -name *.psd -type f -ls -exec rm -f {} \;
+find /home/* -name *.cdr -type f -ls -exec rm -f {} \;
+find /home/* -name *.swf -type f -ls -exec rm -f {} \;
 echo "Tüm gereksiz dosyalar temizlenmiştir."
 ;;
 11)
