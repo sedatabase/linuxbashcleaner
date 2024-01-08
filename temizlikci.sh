@@ -50,7 +50,7 @@ echo "Yedek dosyaları temizlenmiştir."
 clear
 echo "Log dosyaları temizleniyor, lütfen bekleyiniz..."
 sleep 3
-find /home/*/logs -name *.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.gz -type f -ls -exec rm -f {} \;
 echo "Log dosyaları temizlenmiştir."
 ;;
 3)
@@ -91,7 +91,7 @@ clear
 echo "Tüm gereksiz dosyalar temizleniyor, bu işlem uzun sürebilir lütfen bekleyiniz..."
 sleep 3
 find /home/* -name backup-*.tar.gz -type f -ls -exec rm -f {} \;
-find /home/*/logs -name *.gz -type f -ls -exec rm -f {} \;
+find /home/* -name *.gz -type f -ls -exec rm -f {} \;
 find /home/* -name *.tar.gz -type f -ls -exec rm -f {} \;
 find /home/* -name *.gz -type f -ls -exec rm -f {} \;
 find /home/* -name *.zip -type f -ls -exec rm -f {} \;
@@ -107,6 +107,7 @@ find /home/* -name *.bat -type f -ls -exec rm -f {} \;
 find /home/* -name *.psd -type f -ls -exec rm -f {} \;
 find /home/* -name *.cdr -type f -ls -exec rm -f {} \;
 find /home/* -name *.swf -type f -ls -exec rm -f {} \;
+find /home/* -name *.wpress -type f -ls -exec rm -f {} \;
 echo "Tüm gereksiz dosyalar temizlenmiştir."
 ;;
 11)
