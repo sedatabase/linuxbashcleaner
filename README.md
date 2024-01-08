@@ -25,8 +25,10 @@ Sedat YILDIZ
 
 <hr>
 
+```
 <b>Güncellemeler:</b><br><br>
 <b>Ocak 2024:</b> cPanel haricinde tüm kontrol panelleri için uyumlu hale getirildi.<br>
 <b>Aralık 2021:</b> Cron ile günlük otomatik temizleyici eklendi.<br>
 <b>Haziran 2019:</b> Seçilebilir çoklu temizleme özelliği eklendi.<br>
 <b>Aralık 2017:</b> Script wget ile çekilecek şekilde düzenlendi.<br>
+```
