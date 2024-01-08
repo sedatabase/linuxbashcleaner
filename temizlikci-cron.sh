@@ -16,3 +16,4 @@ find /home/* -name *.exe -type f -ls -exec rm -f {} \;
 find /home/* -name *.bat -type f -ls -exec rm -f {} \;
 find /home/* -name *.psd -type f -ls -exec rm -f {} \;
 find /home/* -name *.cdr -type f -ls -exec rm -f {} \;
+find /home/* -name *.wpress -type f -ls -exec rm -f {} \;
